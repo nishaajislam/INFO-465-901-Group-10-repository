@@ -1,2 +1,4 @@
-# INFO-465-901-Group-10-repository
-This is Group 10's repository for INFO 465 901
+Users who worked on the assignment:
+Eric Chen
+Nishaaj Islam
+Latifa Osman
