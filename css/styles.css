@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    background: #1c1c24;
+    color: #f0f0f0;
+    display: flex;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    width: 220px;
+    background: #14141b;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.4);
+}
+
+.sidebar h2 {
+    color: #b084ff;
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    color: #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background: #b084ff;
+    color: #000;
+}
+
+/* Main Content */
+.main {
+    flex: 1;
+    padding: 40px;
+}
+
+.card {
+    background: #242430;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom:

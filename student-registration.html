@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>INFO465 UI/UX</h2>
+    <a href="index.html">Home</a>
+    <a href="course-search.html">Course Search</a>
+    <a href="student-registration.html">Student Registration</a>
+    <a href="instructor-schedule.html">Instructor Schedule</a>
+</div>
+
+<div class="main">
+    <div class="card">
+        <h2>Student Login</h2>
+        <input type="text" id="studentName" placeholder="Your Name">
+        <button onclick="authenticateStudent()">Login</button>
+        <div id="loginMessage" class="message"></div>
+    </div>
+
+    <div class="card">
+        <h2>Register for INFO465</h2>
+        <button onclick="enrollStudent()">Enroll</button>
+        <div id="enrollMessage" class="message"></div>
+    </div>
+</div>
+
+</body>
+</html>
